@@ -27,8 +27,7 @@ function Ball() {
         restitution={2.1}
         onCollisionEnter={onCollisionEnter}
       >
-        {/* <CuboidCollider args={[-5, 5, 0]} /> */}
-        <CuboidCollider args={[-5, 25, 0]} />
+        <CuboidCollider args={[-5, 5, 0]} />
       </RigidBody>
     </>
   );
