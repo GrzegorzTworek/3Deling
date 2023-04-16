@@ -7,7 +7,9 @@ function Ball() {
   const { viewport } = useThree();
   const onCollisionEnter = () => (
     ref.current.setTranslation({ x: 0, y: 0, z: 0 }),
-    ref.current.setLinvel({ x: 0, y: 0, z: 0 })
+    ref.current.setLinvel({ x: 10, y: 10, z: 0 })
+    // ref.current.setTranslation({ x: 0, y: 0, z: 0 }),
+    // ref.current.setLinvel({ x: 0, y: 0, z: 0 })
   );
   return (
     <>
